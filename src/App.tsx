@@ -1,9 +1,9 @@
-import './App.css'
+import HomeHeader from "./components/HomeHeader.tsx";
 
 function App() {
   return (
     <>
-      
+      <HomeHeader />
     </>
   )
 }
