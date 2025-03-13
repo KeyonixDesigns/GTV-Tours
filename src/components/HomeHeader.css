@@ -8,6 +8,15 @@
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
+
+  .home{
+    background: url('../assets/Images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
   
   .navbar-container {
     display: flex;
@@ -185,6 +194,18 @@
     .hamburger {
       display: block;
     }
+  }
+
+  .scroll-down{
+    position: absolute;
+    left: 48.5%;
+    bottom: 10%;
+    animation: scroll 2s infinite reverse;
+  }
+  
+  .scroll-down img {
+      width: 3vw;
+      height: auto;
   }
   
   
